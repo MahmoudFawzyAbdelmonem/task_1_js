@@ -1,0 +1,46 @@
+.containr{
+    height: 720px;
+    background-image:url(image/089563e068b1e9466dc01a4e205b69457c6950ac.jpg);
+}
+
+.chicken{
+    position: relative;
+    animation-name: chicken;
+    animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes chicken {
+    0%   { left:0px; }
+    25%  { right:50px; }
+    50%  { left:50px;}
+    75%  { right:0px; }
+    100% { left:0px; }
+  }
+
+  .rocket{
+    height: 20%;
+    width: 100px;
+    margin-top: 10%;
+  }
+  .shot {
+    width: 10px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 30%;
+    margin-top: 85px;
+    margin-left: 25px;
+    display: inline-block;
+    
+}
+.shot1 {
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 30%;
+  margin-left: 110px;
+  margin-top: 85px;
+  display: inline-block;
+  
+}
